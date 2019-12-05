@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TO DO APP</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="Iniciar_Sesion">Iniciar Sesion</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="codigoDeArea">Codigo De Area</string>
+    <string name="Telefono">Telefono</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pais">Pais</string>
+    <string name="crear_tarea">Crear Tarea</string>
+</resources>

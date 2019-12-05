@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="TareasActivity">
+
+<include layout="@layout/toolbar"
+    android:id="@+id/toolbar"/>
+
+
+
+  <ListView
+      android:layout_below="@id/toolbar"
+      android:id="@+id/lv_tareas"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@id/btn_crear_tarea_nueva"
+      />
+
+
+  <Button
+      android:id="@+id/btn_crear_tarea_nueva"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginLeft="200dp"
+      android:layout_marginRight="5dp"
+      android:layout_marginBottom="22dp"
+      android:background="@color/colorPrimary"
+      android:text="Crear Tarea " />
+
+
+  <Button
+      android:id="@+id/btn_ver_tareas_terminadas"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@id/btn_crear_tarea_nueva"
+      android:layout_alignParentBottom="true"
+      android:layout_marginLeft="-186dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginBottom="22dp"
+      android:background="@color/colorAccent"
+      android:text="Tareas Terminadas " />
+
+
+
+
+</RelativeLayout>

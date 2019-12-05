@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_abrir_perfil"
+        android:title="Perfil"/>
+
+    <item android:id="@+id/action_abrir_tareas_terminadas"
+        android:title="Tareas Terminadas"></item>
+
+    <item android:id="@+id/action_crear_tarea"
+        android:title="Crear Tarea"
+        android:icon="@drawable/ic_agregar"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+
+
+
+
+
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilUsuarioActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_register"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"/>
+
+
+
+<ImageView
+    android:layout_below="@id/toolbar_register"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/iv_perfil"
+    android:src="@mipmap/ic_launcher"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/iv_perfil"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/nombre"
+        android:id="@+id/tv_Nombre"/>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/iv_perfil"
+        android:layout_below="@id/iv_perfil"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_Apellido"
+        android:hint="@string/apellido"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Nombre"
+        android:id="@+id/et_Edad"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/edad"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_Edad"
+        android:id="@+id/et_CodigoArea"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/codigoDeArea"/>
+
+
+    <EditText
+        android:id="@+id/et_Telefono"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Edad"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/et_CodigoArea"
+        android:gravity="center"
+        android:hint="@string/Telefono" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_CodigoArea"
+        android:id="@+id/et_Ciudad"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/ciudad"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Ciudad"
+        android:id="@+id/et_Pais"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/pais"
+        android:gravity="center"/>
+
+
+
+
+    <Button
+        android:id="@+id/BtnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_below="@id/et_Pais"
+        android:layout_marginTop="90dp"
+        android:background="@color/colorPrimary"
+        android:text="Registrarse"
+
+        />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
